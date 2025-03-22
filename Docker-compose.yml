@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  springboot:
+    build: .
+    container_name: devopsEnvi_container
+    ports:
+      - "8080:8080"
