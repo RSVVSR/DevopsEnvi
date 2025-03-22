@@ -50,3 +50,6 @@ jobs:
           ssh -o StrictHostKeyChecking=no user@your-server "docker pull ${{ secrets.DOCKER_USERNAME }}/spring-boot-app:latest && docker run -d -p 8080:8080 --name spring-boot-app ${{ secrets.DOCKER_USERNAME }}/spring-boot-app:latest"
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+
+
+hello wrold
